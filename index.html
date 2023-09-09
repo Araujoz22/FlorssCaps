@@ -76,15 +76,14 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <meta name="msapplication-TileImage" content="https://happyhairoficial.com.br/wp-content/uploads/2023/04/cropped-favicon-hh-270x270.webp">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"><script src="js/wp-emoji-release.min.js" defer></script></head>
 <body class="home page-template page-template-elementor_canvas page page-id-17 elementor-default elementor-template-canvas elementor-kit-11 elementor-page elementor-page-17">
-	<div class="estilo-div">
-		Capsula Capilar - Florss Caps		
-		<video id="myVideo" class="estilo-video" width="320" height="240" controls autoplay loop muted>
+	<div class="video-container">
+		<video id="myVideo" autoplay loop muted playsinline>
 			<source src="images\Video Medico.mp4" type="video/mp4">
 			Seu navegador não suporta o elemento de vídeo.
 		</video>
-		<button onclick="unmuteVideo()">Ativar Som</button>
-				
+		<img src="images\Com som.png" alt="Clique para ver com som" class="overlay-image" onclick="playWithSound()">
 	</div>
+	
 	
 			<div data-elementor-type="wp-page" data-elementor-id="17" class="elementor elementor-17">
 							<div class="elementor-element elementor-element-6cb2d86f e-con-boxed e-con" data-id="6cb2d86f" data-element_type="container" data-settings="{" background_background":"classic","content_width":"boxed"}">
