@@ -40,4 +40,8 @@
     cursor: pointer;
 }
 
-
+.titulo2 {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
